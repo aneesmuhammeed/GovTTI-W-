@@ -124,7 +124,7 @@ body{
   }
 
   #check:checked~.navbar2 {
-    height: 17.7em;
+    height: 18em;
   }
 
   .navbar2 a {
