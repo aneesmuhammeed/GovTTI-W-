@@ -1,0 +1,90 @@
+.Ded{
+  margin-top: 130px;
+  margin-left: 3%;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.Ded-img{
+  margin: 5%;
+}
+
+.admis{
+  margin: 5%;
+  background-color:rgba(0, 0, 0, 0.1);
+  padding: 0.5%;
+}
+
+.devplan{
+  margin: 5%;
+  background-color:rgba(0, 0, 0, 0.1);
+  padding: 3%;
+}
+
+.itedev{
+  padding: 1% 2.5%;
+  padding-bottom: 3%;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+
+
+.table {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table-header, .table-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table-cell {
+  flex: 1 1 50%;
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+.header {
+  background-color: #004080;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Alternate row shading */
+.table-row:nth-child(even) .table-cell {
+  background-color: #f0f8ff;
+}
+
+/* Hover effect */
+.table-row:hover .table-cell {
+  background-color: #dff0ff;
+  transition: background-color 0.3s ease;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+  .table-cell {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .table-header .table-cell {
+    background-color: #003366;
+  }
+}
+
+
+.table-ded{
+  display: flex;
+  justify-content: center;
+
+}
