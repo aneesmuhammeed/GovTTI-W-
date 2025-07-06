@@ -104,17 +104,32 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 500px) {
   th, td {
     padding: 4px 5px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .staff, .tstaff, .non-teach, .various-duties {
-    font-size: large;
+    font-size: medium;
   }
 
   table {
     min-width: 300px; /* force scroll instead of breaking layout */
+  }
+}
+@media (max-width: 380px) {
+  th, td {
+    padding: 2px 2.5px;
+    font-size: 6px;
+  }
+
+  .staff, .tstaff, .non-teach, .various-duties {
+    font-size: small;
+  }
+
+  table {
+    min-width: 150px; /* force scroll instead of breaking layout */
   }
 }
