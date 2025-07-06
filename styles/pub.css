@@ -1,0 +1,24 @@
+.abcd{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.abc{
+  margin-top: 2%;
+  text-decoration: none;
+  color: rgb(15, 9, 130);
+}
+.pub-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  background-color: rgb(127, 135, 138);
+  padding: 30px;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+}
