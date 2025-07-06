@@ -52,7 +52,7 @@ tr:hover {
 
 img {
   width: 100%;
-  height: 167%;
+  max-height: 167px;
   object-fit: contain;
   /* border-radius: 50%;
   border: 2px solid #ccc; */
