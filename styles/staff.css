@@ -103,3 +103,18 @@ img {
     min-width: 400px; /* force scroll instead of breaking layout */
   }
 }
+
+@media (max-width: 400px) {
+  th, td {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .staff, .tstaff, .non-teach, .various-duties {
+    font-size: large;
+  }
+
+  table {
+    min-width: 300px; /* force scroll instead of breaking layout */
+  }
+}
