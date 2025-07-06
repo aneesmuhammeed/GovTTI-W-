@@ -1,0 +1,23 @@
+.pta-txt{
+  margin-top: 140px;
+  padding-top: 1.5%;
+  margin-bottom: 6%;
+  font-weight: 700;
+  margin-left: 2%;
+  font-size: xx-large;
+}
+
+.pta-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-height: 300.525px;
+  max-width: 233px;
+}
+.pta-mem{
+  display: flex;
+  justify-content: center;
+}
