@@ -1,0 +1,26 @@
+.facilities-img{
+  margin-top: 18%;
+}
+
+.fac-img{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.facilities-images{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-radius: 2.3%;
+  border-style: solid;
+  border-color:rgb(109, 117, 117) ;
+
+}
+
+.facilities-txt{
+  margin-top:1% ;
+  margin-bottom:4% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
