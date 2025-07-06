@@ -1,0 +1,45 @@
+.act-main{
+  margin: 1%;
+}
+.act{
+  margin-top: 120px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.first-act{
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.first-slideshow{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+  padding: 2%;
+  background-color: rgb(163, 167, 167);
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.first-ss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper{
+  margin-top: 3%;
+  max-width: 100%;
+}
+
+.swiper .swiper-button-prev ,.swiper .swiper-button-next{
+  color: #fff;
+  
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background-color: #fff;
+}
