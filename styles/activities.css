@@ -19,7 +19,7 @@
   align-items:center ;
   flex-direction: column;
   padding: 2%;
-  background-color: rgb(163, 167, 167);
+  background-color: rgb(136, 147, 147);
   margin-top: 1%;
   margin-left: 2%;
 }
@@ -31,9 +31,11 @@
 }
 
 .swiper{
-  margin-top: 3%;
-  max-width: 100%;
+  /* margin-top: 3%; */
+  max-width: 80%;
 }
+
+
 
 .swiper .swiper-button-prev ,.swiper .swiper-button-next{
   color: #fff;
