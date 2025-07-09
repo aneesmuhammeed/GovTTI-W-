@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="styles/activities.css">
+  <link rel="stylesheet" href="styles/contact.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -48,21 +48,63 @@
        <a href="contact.html" style="--i:10">Contacts</a>
       </nav>
     </div>
-    <div style="margin-top: 140px;font-size: xx-large; font-weight: 600; margin-left: 3%;">
-      Contact
-    </div>
-    <div style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
-      <img style="max-width: none; max-height: none; width: auto;height: auto;" src="assets/act/gardening/contact-icons1.jpg" alt="">
-      <div style="font-weight: 500; font-size: larger;">
-        Govt. Institute of Teacher Education (W)
-      </div>
-      <div>Ambikapuram (Post)</div>
-      <div>Palakkad, Kerala, India</div>
-      <div>Pin : 678 011</div>
-      <br>
-      <div>Phone : 0491 2578235</div>
-      <div>e-mail : gttiwpgt@gmail.com</div>
-    </div>
 
-</body>
+    <div style="margin-top: 140px;font-size: xx-large; font-weight: 600; margin-left: 3%;">
+          Contact
+        </div>
+
+    <div class="can">
+
+      <div class="div-1">
+
+        
+        <div style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
+          <img style="max-width: none; max-height: none; width: auto;height: auto;" src="assets/act/gardening/contact-icons1.jpg" alt="">
+          <div style="font-weight: 500; font-size: larger;">
+            Govt. Institute of Teacher Education (W)
+          </div>
+          <div>Ambikapuram (Post)</div>
+          <div>Palakkad, Kerala, India</div>
+          <div>Pin : 678 011</div>
+          <br>
+          <div>Phone : 0491 2578235</div>
+          <div>e-mail : gttiwpgt@gmail.com</div>
+        </div>
+      </div>
+      
+      <div class="div-2">
+
+        <div class="main-form">
+          <div class="form-service">
+            <form action="https://formsubmit.co/akmalser7@gmail.com"         method="POST">
+              <h3 style="margin-top: 0%; margin-left: 0%;">General Enquiry</h3 >
+                <input class="input-2"  type="hidden" name="_captcha" value="false">
+                <label >Your Name</label>
+                <input class="input-1" type="text" 
+                placeholder="Enter your Name"name="name" required><br>
+                
+                <label>Your Email</label>
+                <input class="input-1" type="email"
+                placeholder="Enter your Email Address" name="email" required><br>
+                
+                <label>Your Phone Number</label>
+                <input class="input-1" type="tel" pattern="[0-9]{10}" required  
+                placeholder="Enter 10-digit number"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '')"><br>
+                
+                <label>Your Location</label>
+                <input placeholder="Enter your Location" class="input-1" type="text" name="email" required><br>
+                
+                <label >Your Message</label>
+                <textarea class="input-1" name="message" rows="5" required></textarea><br>
+                
+                <button class="styled-button" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+        
+  </body>
 </html>
